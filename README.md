@@ -28,7 +28,7 @@ make build
 ### Using Go Install
 
 ```bash
-go install github.com/PrebenVerEecke/omnidocsscanner@latest
+go install github.com/PrebenVerEecke/omnidocsscanner/cmd/newgenone-pentest@latest
 ```
 
 This will automatically download, build, and install the tool to your `$GOPATH/bin` directory.
@@ -38,25 +38,18 @@ This will automatically download, build, and install the tool to your `$GOPATH/b
 ### Basic Unauthenticated Scan
 
 ```bash
-newgenone-pentest --base-url https://newgen.example.com --unauth
+newgenone-pentest --base-url https://newgen.example.com
 ```
+
+By default, the tool runs unauthenticated checks only. This is perfect for initial reconnaissance and doesn't require any credentials.
 
 ### Full Authenticated Scan
 
 ```bash
-newgenone-pentest --base-url https://newgen.example.com --cabinet newgenso
+newgenone-pentest --base-url https://newgen.example.com --auth --username alice --password 'S3cret!' --cabinet newgenso
 ```
 
-### With Credentials
-
-```bash
-newgenone-pentest \
-  --base-url https://newgen.example.com \
-  --username alice \
-  --password 'S3cret!' \
-  --cabinet newgenso \
-  --output-json findings.json
-```
+Use the `--auth` flag to enable authenticated checks. You must provide both `--username` and `--password` when using authenticated mode.
 
 ### Advanced Usage
 
@@ -90,7 +83,7 @@ newgenone-pentest \
 | `--cabinet` | Default cabinet name | `newgenso` |
 | `--username` | Authentication username | - |
 | `--password` | Authentication password | - |
-| `--auth` | Run authenticated checks | `true` |
+| `--auth` | Run authenticated checks | `false` |
 | `--unauth` | Run unauthenticated checks | `true` |
 | `--include` | Extra paths to include | `[]` |
 | `--exclude` | Paths to exclude (glob/regex) | `[]` |
