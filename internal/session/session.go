@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prebenvereecke/newgenone-pentest/internal/client"
+	"github.com/PrebenVerEecke/omnidocsscanner/internal/client"
 )
 
 // Session holds authentication state

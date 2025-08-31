@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prebenvereecke/newgenone-pentest/internal/session"
+	"github.com/PrebenVerEecke/omnidocsscanner/internal/session"
 )
 
 // Authenticator interface for different authentication methods

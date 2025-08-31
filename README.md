@@ -1,4 +1,4 @@
-# NewgenONE Pentest Tool
+# Omnidocs Scanner
 
 A comprehensive CLI security testing tool for discovering misconfigurations and vulnerabilities in Omnidocs NewgenONE deployments.
 
@@ -20,15 +20,15 @@ This tool is intended for **authorized security testing only**. Use only on syst
 ### From Source
 
 ```bash
-git clone https://github.com/prebenvereecke/newgenone-pentest.git
-cd newgenone-pentest
+git clone https://github.com/PrebenVerEecke/omnidocsscanner.git
+cd omnidocsscanner
 make build
 ```
 
 ### Using Go Install
 
 ```bash
-go install github.com/prebenvereecke/newgenone-pentest@latest
+go install github.com/PrebenVerEecke/omnidocsscanner@latest
 ```
 
 This will automatically download, build, and install the tool to your `$GOPATH/bin` directory.

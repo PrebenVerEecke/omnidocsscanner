@@ -2,7 +2,7 @@ package checks
 
 import (
 	"context"
-	"github.com/prebenvereecke/newgenone-pentest/internal/session"
+	"github.com/PrebenVerEecke/omnidocsscanner/internal/session"
 )
 
 // Severity levels for findings
