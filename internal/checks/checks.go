@@ -2,7 +2,7 @@ package checks
 
 import (
 	"context"
-	"newgenone-pentest/internal/session"
+	"github.com/prebenvereecke/newgenone-pentest/internal/session"
 )
 
 // Severity levels for findings

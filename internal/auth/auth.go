@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"newgenone-pentest/internal/session"
+	"github.com/prebenvereecke/newgenone-pentest/internal/session"
 )
 
 // Authenticator interface for different authentication methods

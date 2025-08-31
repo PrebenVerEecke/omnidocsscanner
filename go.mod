@@ -1,4 +1,4 @@
-module newgenone-pentest
+module github.com/prebenvereecke/newgenone-pentest
 
 go 1.23.0
 

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"newgenone-pentest/internal/session"
+	"github.com/prebenvereecke/newgenone-pentest/internal/session"
 )
 
 func init() {

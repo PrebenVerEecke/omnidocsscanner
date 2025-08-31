@@ -20,7 +20,7 @@ This tool is intended for **authorized security testing only**. Use only on syst
 ### From Source
 
 ```bash
-git clone <repository>
+git clone https://github.com/prebenvereecke/newgenone-pentest.git
 cd newgenone-pentest
 make build
 ```
@@ -28,8 +28,10 @@ make build
 ### Using Go Install
 
 ```bash
-go install github.com/your-org/newgenone-pentest@latest
+go install github.com/prebenvereecke/newgenone-pentest@latest
 ```
+
+This will automatically download, build, and install the tool to your `$GOPATH/bin` directory.
 
 ## Usage
 

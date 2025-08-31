@@ -9,7 +9,7 @@ import (
 
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/fatih/color"
-	"newgenone-pentest/internal/checks"
+	"github.com/prebenvereecke/newgenone-pentest/internal/checks"
 )
 
 // Report represents a complete security assessment report
